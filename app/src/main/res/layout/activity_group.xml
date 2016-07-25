@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_group"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gyngro.vanbora.GroupActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="@+id/activity_group"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintTop_toTopOf="@+id/activity_group"
+            android:layout_marginTop="16dp"
+            app:layout_constraintRight_toRightOf="@+id/activity_group"
+            android:layout_marginRight="16dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintBottom_toBottomOf="@+id/activity_group"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:layout_height="80dp"
+                app:srcCompat="@color/primary_dark"
+                android:id="@+id/groupThumbnail"
+                android:layout_width="80dp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="16dp"
+                app:layout_constraintVertical_bias="0.0"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/groupThumbnail"
+                android:layout_toEndOf="@+id/groupThumbnail"
+                android:layout_weight="1">
+
+                <TextView
+                    android:text="[Condutor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/driverNameTextView"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/groupThumbnail"
+                    android:layout_toEndOf="@+id/groupThumbnail" />
+
+                <TextView
+                    android:text="[Placa da Van"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_alignLeft="@+id/driverNameTextView"
+                    android:layout_alignStart="@+id/driverNameTextView"
+                    android:id="@+id/vanPlateTextView" />
+
+                <TextView
+                    android:text="[ Assentos Disponíveis]"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignLeft="@+id/vanPlateTextView"
+                    android:layout_alignStart="@+id/vanPlateTextView"
+                    android:id="@+id/availableSeatsTextView" />
+
+            </LinearLayout>
+
+            <TextView
+                android:text="[Data]"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:gravity="right"
+                android:id="@+id/dateTextView"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp"
+            android:id="@+id/groupRecyclerView"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

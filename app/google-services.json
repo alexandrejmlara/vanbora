@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "238419518852",
+    "firebase_url": "https://vanbora-5b58e.firebaseio.com",
+    "project_id": "vanbora-5b58e",
+    "storage_bucket": "vanbora-5b58e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:238419518852:android:aab17f900822a884",
+        "android_client_info": {
+          "package_name": "com.gyngro.vanbora"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "238419518852-79i3lk3hq0cko99b34ceure0m9m6gfbv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gyngro.vanbora",
+            "certificate_hash": "A0EFE1DB98592C755EEB2E86D4D242D79B72D095"
+          }
+        },
+        {
+          "client_id": "238419518852-th9qdurum62ubukqo8heqq23vm6fhdml.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6zrng0K2HQCZaQ0SwTBClN-Wo2XHbPSw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "238419518852-th9qdurum62ubukqo8heqq23vm6fhdml.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

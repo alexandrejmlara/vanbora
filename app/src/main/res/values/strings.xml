@@ -1,0 +1,62 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Vanbora</string>
+    <string name="sign_in_no_password_title">Digite um email para ser usado como login</string>
+    <string name="password_hint">Senha</string>
+    <string name="button_singin_text">Cadastrar-se</string>
+    <string name="button_password_recovery_text">Problemas para lembrar a senha</string>
+    <string name="name_hint">Primeiro &amp; último nome</string>
+    <string name="password_recovery_title">Esqueceu a senha</string>
+    <string name="password_recovery_body">Verifique as informações enviadas ao seu email que explicam como resetar sua senha.</string>
+    <string name="create_account_title">Criar conta</string>
+    <string name="invalid_email_address">O endereço de email é incorreto</string>
+    <string name="missing_email_address">Digite o seu endereço de email para continuar</string>
+    <string name="button_text_next">Próximo</string>
+    <string name="button_text_send">Enviar</string>
+    <string name="button_text_save">Salvar</string>
+    <string name="button_text_sign_in">Entrar</string>
+    <string name="require_email_text">Por favor, digite um endereço de email</string>
+    <string name="confirm_recovery_body">Siga as instruções enviadas para %1$s para recuperar sua senha.</string>
+    <string name="recovery_fail_body">O endereço de email não existe</string>
+    <string name="account_welcomeback">Bem vindo</string>
+    <string name="finding_credential">Encontrando uma credencial…</string>
+    <string name="do_delete">Deletar</string>
+    <string name="welcome_back">Bem Vindo!</string>
+    <string name="next">Próximo</string>
+    <string name="trouble_signing_in">Problemas ao se cadastrar?</string>
+    <string name="sign_in">Entrar</string>
+    <string name="sign_in_title">Entrar</string>
+    <string name="sign_in_with_google">Entrar com Google</string>
+    <string name="sign_in_with_facebook">Entrar com Facebook</string>
+    <string name="button_done">Concluído</string>
+    <string name="check_your_email">Verifique seu email</string>
+    <string name="recover_password_title">Recuperar senha</string>
+    <string name="welcome_back_idp_header">Você já possui uma conta</string>
+    <string name="welcome_back_idp_prompt">
+        Você já usou <xliff:g example="jane.doe@example.com" id="email_addr">%1$s</xliff:g>.
+        Entrar com <xliff:g example="Google" id="provider_name">%2$s</xliff:g> para continuar.
+    </string>
+    <string name="welcome_back_idp_button">Entrar</string>
+    <string name="welcome_back_password_prompt_body">Você já usou
+        <xliff:g example="jane.doe@example.com" id="email_addr">%1$s</xliff:g> para entrar. Digite sua senha para aquela conta.</string>
+    <string name="password_word">Senha</string>
+    <string name="idp_name_google">Google</string>
+    <string name="idp_name_facebook">Facebook</string>
+    <string name="create_account_preamble">"Ao clicar em SALVAR você está indicando que você concorda com "</string>
+    <string name="terms_of_service">Termos de Serviço</string>
+    <string name="sign_in_with_email">Cadastro com email</string>
+    <string name="login_error">Não foi possível entrar</string>
+    <string name="email_account_creation_error">Não foi possível realizar registro de conta de email</string>
+    <string name="missing_password_email_toast">Senha ou email está faltando</string>
+    <string name="progress_dialog_loading">Carregando…</string>
+    <string name="progress_dialog_sending">Enviando…</string>
+    <string name="progress_dialog_signing_in">Entrando…</string>
+    <string name="progress_dialog_signing_up">Cadastrando…</string>
+    <string name="sign_in_cancelled">Login cancelado</string>
+    <string name="sign_out_failed">Não foi possível deslogar</string>
+    <string name="unknown_sign_in_response">Código de resposta na tentativa de login desconhecido</string>
+    <string name="unknown_response">Código de resposta desconhecido</string>
+
+    <!-- Welcome Screen -->
+    <string name="welcome_screen_text">Bem vindo ao Vanbora</string>
+
+</resources>
